@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/images/icon.png" width="96" alt="Topstrip icon">
+
 # Topstrip
 
 **An [Omarchy](https://omarchy.org/manual/the-top-bar/)-style top bar for Windows.**
@@ -25,15 +27,22 @@ Workspaces, a centered clock, your tray apps and system status in one thin strip
 
 ## Install
 
-1. Download `Topstrip.exe` from the [latest release](https://github.com/mberrishdev/Topstrip/releases/latest).
-2. Run it. Nothing else to install.
-3. Optional: in the Topstrip menu, turn on **Open at Login**.
+1. Download **`Topstrip-<version>-win-x64.zip`** from the [latest release](https://github.com/mberrishdev/Topstrip/releases/latest). On an ARM PC (Surface Pro X, Snapdragon laptops) take `-win-arm64.zip`.
+2. Unzip it and run **`Topstrip.exe`**.
+
+That's it. Topstrip installs itself for your user (no admin rights): it adds a Start menu entry and an entry in **Settings → Apps → Installed apps**, and turns on **Open at Login**.
 
 Windows SmartScreen may warn about an unrecognized app the first time, because the exe isn't code-signed yet. Choose **More info → Run anyway**.
 
-**Requirements:** Windows 10 or 11, 64-bit.
+**Requirements:** Windows 10 or 11, 64-bit (x64 or ARM64).
 
 For the exact Omarchy look, install a [Nerd Font](https://www.nerdfonts.com/) such as *JetBrainsMono Nerd Font*. Otherwise Topstrip uses Cascadia Mono or Consolas.
+
+## Updates
+
+Topstrip checks for a new version about once a day. When one is ready, an update badge appears next to the clock: click it and Topstrip updates and restarts. You can also choose **Check for Updates…** in the menu.
+
+Want new features early? Turn on **Beta Updates** in the menu.
 
 ## Using it
 
@@ -42,6 +51,7 @@ For the exact Omarchy look, install a [Nerd Font](https://www.nerdfonts.com/) su
 | Menu (logo) | Menu: settings, apps, theme, transparency, open at login, lock, restart, shut down | Open a terminal | |
 | Workspaces | Switch to that desktop | | |
 | Clock | Notifications & calendar | Change format | |
+| Update badge | Install the update and restart | | Only shown when an update is ready |
 | Tray `‹` | | | Hover to show tray apps |
 | Bluetooth | Bluetooth settings | Turn on / off | |
 | Network | Wi-Fi list | | Icon shows signal strength |
@@ -50,7 +60,7 @@ For the exact Omarchy look, install a [Nerd Font](https://www.nerdfonts.com/) su
 
 Double-click an empty part of the bar to toggle transparency.
 
-Settings are stored in `%APPDATA%\Topstrip\settings.json`.
+Settings are stored in `%APPDATA%\Topstrip\settings.json`, and a log in `%APPDATA%\Topstrip\topstrip.log` (attach it to bug reports).
 
 ## FAQ
 
@@ -61,7 +71,10 @@ No. The taskbar keeps working; Topstrip sits at the top. Many people set the tas
 On Windows 11 24H2 and later, apps need location access to read the network name. Signal strength works either way.
 
 **How do I uninstall it?**
-Choose **Quit Topstrip** from the menu, turn off **Open at Login** first if you enabled it, then delete `Topstrip.exe` and `%APPDATA%\Topstrip`.
+**Settings → Apps → Installed apps → Topstrip → Uninstall.** It asks whether to keep your settings.
+
+**Can I run it without installing?**
+Yes: put an empty file named `Topstrip.portable` next to `Topstrip.exe`, and it runs from where it is (no Start menu entry, no automatic install).
 
 ## Feedback
 
