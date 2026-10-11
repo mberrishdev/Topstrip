@@ -16,7 +16,8 @@ Workspaces, a centered clock, your tray apps and system status in one thin strip
 
 ## Features
 
-- **Workspaces 1–5:** your Windows virtual desktops. Click a number to switch; Topstrip creates the desktop if it doesn't exist yet.
+- **Workspaces 1–5:** your Windows virtual desktops. Click a number to jump straight to it; Topstrip creates the desktop if it doesn't exist yet. Bright numbers have windows, dim ones are empty; hover to see the apps on a desktop.
+- **Active app:** the app you're using and its window title, next to the workspaces.
 - **Centered clock:** click for notifications and calendar, right-click to change the format.
 - **Tray drawer:** hover the `‹` to reveal the apps that normally sit next to the Windows clock (Discord, Steam, OneDrive…). Left-, right- and middle-click them as usual.
 - **Status:** Bluetooth, Wi-Fi signal, volume and battery.
@@ -51,7 +52,7 @@ Want new features early? Turn on **Beta Updates** in the menu.
 | Widget | Left click | Right click | Other |
 |---|---|---|---|
 | Menu (logo) | Menu: Settings, theme, Hide Bar, apps, lock, restart, shut down | Open a terminal | |
-| Workspaces | Switch to that desktop | | |
+| Workspaces | Switch to that desktop | | Hover: the apps on it |
 | Clock | Notifications & calendar | Change format | |
 | Update badge | Install the update and restart | | Only shown when an update is ready |
 | Tray `‹` | | | Hover to show tray apps |
