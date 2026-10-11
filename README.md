@@ -20,7 +20,9 @@ Workspaces, a centered clock, your tray apps and system status in one thin strip
 - **Centered clock:** click for notifications and calendar, right-click to change the format.
 - **Tray drawer:** hover the `‹` to reveal the apps that normally sit next to the Windows clock (Discord, Steam, OneDrive…). Left-, right- and middle-click them as usual.
 - **Status:** Bluetooth, Wi-Fi signal, volume and battery.
-- **Real space reservation:** maximized windows stop below the bar, just like they stop above the taskbar.
+- **Real space reservation:** maximized windows stop below the bar, just like they stop above the taskbar. Fullscreen videos and games cover it.
+- **Hide it any time:** **Win+Alt+T** (or **Hide Bar** in the menu) gives the space back; press it again to bring the bar back.
+- **Settings:** theme, transparency, clock format, which display, which widgets, shortcut, startup and updates.
 - **11 themes:** Tokyo Night, Catppuccin, Catppuccin Latte, Everforest, Gruvbox, Kanagawa, Matte Black, Nord, Osaka Jade, Ristretto and Rosé Pine.
 
 ![All themes](docs/images/themes.png)
@@ -48,7 +50,7 @@ Want new features early? Turn on **Beta Updates** in the menu.
 
 | Widget | Left click | Right click | Other |
 |---|---|---|---|
-| Menu (logo) | Menu: settings, apps, theme, transparency, open at login, lock, restart, shut down | Open a terminal | |
+| Menu (logo) | Menu: Settings, theme, Hide Bar, apps, lock, restart, shut down | Open a terminal | |
 | Workspaces | Switch to that desktop | | |
 | Clock | Notifications & calendar | Change format | |
 | Update badge | Install the update and restart | | Only shown when an update is ready |
@@ -59,6 +61,10 @@ Want new features early? Turn on **Beta Updates** in the menu.
 | Power | Power settings | Show battery % | |
 
 Double-click an empty part of the bar to toggle transparency.
+
+**Settings** (menu → Settings…, or start Topstrip again while it's running) has everything else: theme, transparency, clock format, battery percentage, which display the bar is on, which widgets to show, the hide/show shortcut, open at login and updates.
+
+**Hide the bar** with **Win+Alt+T** (changeable in Settings) or **Hide Bar** in the menu. Press the shortcut again, or start Topstrip from the Start menu, to bring it back. To close it completely, choose **Quit Topstrip**.
 
 Settings are stored in `%APPDATA%\Topstrip\settings.json`, and a log in `%APPDATA%\Topstrip\topstrip.log` (attach it to bug reports).
 
