@@ -21,6 +21,8 @@ Workspaces, a centered clock, your tray apps and system status in one thin strip
 - **Centered clock:** click for notifications and calendar, right-click to change the format.
 - **Tray drawer:** hover the `‹` to reveal the apps that normally sit next to the Windows clock (Discord, Steam, OneDrive…). Left-, right- and middle-click them as usual.
 - **Status:** Bluetooth, Wi-Fi signal, volume and battery.
+- **Keyboard layout:** your input language (EN, KA…) next to the clock when you use more than one.
+- **Copilot usage:** GitHub Copilot premium requests left this month (needs the [GitHub CLI](https://cli.github.com) signed in with `gh auth login`).
 - **Real space reservation:** maximized windows stop below the bar, just like they stop above the taskbar. Fullscreen videos and games cover it.
 - **Hide it any time:** **Win+Alt+T** (or **Hide Bar** in the menu) gives the space back; press it again to bring the bar back.
 - **Settings:** theme, transparency, clock format, which display, which widgets, shortcut, startup and updates.
@@ -54,7 +56,9 @@ Want new features early? Turn on **Beta Updates** in the menu.
 | Menu (logo) | Menu: Settings, theme, Hide Bar, apps, lock, restart, shut down | Open a terminal | |
 | Workspaces | Switch to that desktop | | Hover: the apps on it |
 | Clock | Notifications & calendar | Change format | |
+| Keyboard layout | Next layout | Language settings | Only shown with 2+ layouts |
 | Update badge | Install the update and restart | | Only shown when an update is ready |
+| Copilot usage | Copilot settings on GitHub | Refresh | Hover: plan and reset date |
 | Tray `‹` | | | Hover to show tray apps |
 | Bluetooth | Bluetooth settings | Turn on / off | |
 | Network | Wi-Fi list | | Icon shows signal strength |
