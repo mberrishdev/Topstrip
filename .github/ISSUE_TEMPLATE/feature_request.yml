@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest a new widget or improvement.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: Describe the feature and how you'd use it. If it's something Omarchy does, a link helps.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: What problem would it solve for you?
