@@ -25,6 +25,7 @@ Workspaces, a centered clock, your tray apps and system status in one thin strip
 - **Copilot usage:** GitHub Copilot premium requests left this month (needs the [GitHub CLI](https://cli.github.com) signed in with `gh auth login`).
 - **Real space reservation:** maximized windows stop below the bar, just like they stop above the taskbar. Fullscreen videos and games cover it.
 - **Hide it any time:** **Win+Alt+T** (or **Hide Bar** in the menu) gives the space back; press it again to bring the bar back.
+- **Every monitor:** show the bar on the main display, one display, or all of them.
 - **Settings:** theme, transparency, clock format, which display, which widgets, shortcut, startup and updates.
 - **11 themes:** Tokyo Night, Catppuccin, Catppuccin Latte, Everforest, Gruvbox, Kanagawa, Matte Black, Nord, Osaka Jade, Ristretto and Rosé Pine.
 
