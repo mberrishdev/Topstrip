@@ -18,6 +18,7 @@ Workspaces, a centered clock, your tray apps and system status in one thin strip
 
 - **Workspaces 1–5 with their apps:** your Windows virtual desktops, each showing the icons of the apps open on it. Click a number to jump straight to that desktop (Topstrip creates it if needed), click an icon to jump to that window, scroll to move between desktops. The app you're using is highlighted with its name.
 - **Workspace preview:** hover another workspace to see a live miniature of it, with every window where it is; click a window to jump to it.
+- **Drag apps between desktops:** drag an app icon onto another workspace to move its windows there (Windows 11 24H2+).
 - **Active app:** the app you're using and its window title, next to the workspaces.
 - **Centered clock:** click for notifications and calendar, right-click to change the format.
 - **Tray drawer:** hover the `‹` to reveal the apps that normally sit next to the Windows clock (Discord, Steam, OneDrive…). Left-, right- and middle-click them as usual.
@@ -57,7 +58,7 @@ Want new features early? Turn on **Beta Updates** in the menu.
 |---|---|---|---|
 | Menu (logo) | Menu: Settings, theme, Hide Bar, apps, lock, restart, shut down | Open a terminal | |
 | Workspaces | Switch to that desktop | | Scroll: next / previous desktop · Hover: preview |
-| App icon (on a workspace) | Jump to that window (again: its next window) | | Hover: window titles |
+| App icon (on a workspace) | Jump to that window (again: its next window) | | Drag onto another workspace: move it there · Hover: titles |
 | Clock | Notifications & calendar | Change format | |
 | Keyboard layout | Next layout | Language settings | Only shown with 2+ layouts |
 | Update badge | Install the update and restart | | Only shown when an update is ready |
