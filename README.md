@@ -8,7 +8,7 @@
 
 Workspaces, a centered clock, your tray apps and system status in one thin strip across the top of the screen.
 
-[**Download**](https://github.com/mberrishdev/Topstrip/releases/latest) · [Report a bug](https://github.com/mberrishdev/Topstrip/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/mberrishdev/Topstrip/issues/new?template=feature_request.yml)
+[**Download**](https://github.com/mberrishdev/Topstrip/releases/latest) · [Website](https://topstrip.mberrishdev.me) · [Report a bug](https://github.com/mberrishdev/Topstrip/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/mberrishdev/Topstrip/issues/new?template=feature_request.yml)
 
 ![Topstrip with the Tokyo Night theme and the tray drawer open](docs/images/hero.png)
 
