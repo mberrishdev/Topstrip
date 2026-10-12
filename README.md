@@ -16,7 +16,8 @@ Workspaces, a centered clock, your tray apps and system status in one thin strip
 
 ## Features
 
-- **Workspaces 1–5 with their apps:** your Windows virtual desktops, each showing the icons of the apps open on it. Click a number to jump straight to that desktop (Topstrip creates it if needed), click an icon to jump to that window, scroll to move between desktops. The app you're using is underlined.
+- **Workspaces 1–5 with their apps:** your Windows virtual desktops, each showing the icons of the apps open on it. Click a number to jump straight to that desktop (Topstrip creates it if needed), click an icon to jump to that window, scroll to move between desktops. The app you're using is highlighted with its name.
+- **Workspace preview:** hover another workspace to see a miniature of it, with every window where it is; click a window to jump to it.
 - **Active app:** the app you're using and its window title, next to the workspaces.
 - **Centered clock:** click for notifications and calendar, right-click to change the format.
 - **Tray drawer:** hover the `‹` to reveal the apps that normally sit next to the Windows clock (Discord, Steam, OneDrive…). Left-, right- and middle-click them as usual.
@@ -55,7 +56,7 @@ Want new features early? Turn on **Beta Updates** in the menu.
 | Widget | Left click | Right click | Other |
 |---|---|---|---|
 | Menu (logo) | Menu: Settings, theme, Hide Bar, apps, lock, restart, shut down | Open a terminal | |
-| Workspaces | Switch to that desktop | | Scroll: next / previous desktop |
+| Workspaces | Switch to that desktop | | Scroll: next / previous desktop · Hover: preview |
 | App icon (on a workspace) | Jump to that window (again: its next window) | | Hover: window titles |
 | Clock | Notifications & calendar | Change format | |
 | Keyboard layout | Next layout | Language settings | Only shown with 2+ layouts |
